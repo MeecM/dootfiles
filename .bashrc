@@ -10,7 +10,6 @@ PS1='[\u@\h \W]\$ '
 export PATH=${HOME}/.local/bin:$PATH
 PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 export PATH=.:$PATH
-
 #binding
 alias pacup="sudo pacman -Syu"
 alias i3conf="vim ~/.i3/config"
@@ -21,3 +20,4 @@ alias ffox="ffox"
 alias la="ls -a"
 alias learnc="cd ~/projects/learningC"
 alias lock="i3lock"
+alias sslep="systemctl suspend"

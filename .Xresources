@@ -43,6 +43,7 @@ URxvt.transparent:    false
 URxvt.scrollBar: false
 ! Set font.
 xterm*font: xft:Hack Powerline:size=11
+URxvt.font: xft:Hack Powerline:size=11
 xterm*saveLines: 2000
 ! Base16 Default Dark
 ! Scheme: Chris Kempson (http://chriskempson.com)

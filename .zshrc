@@ -68,7 +68,14 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    archlinux
+    git
+    history-substring-search
+    colored-man-pages
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,5 +102,6 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias slep="systemctl suspend"

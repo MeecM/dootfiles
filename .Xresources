@@ -42,7 +42,7 @@ URxvt.transparent:    false
 ! Hide ugly bar.
 URxvt.scrollBar: false
 ! Set font.
-xterm*font: xft:Hack Powerline:size=11
+xterm*font: xft:Hack Powerline:size=10
 URxvt.font: xft:Hack Powerline:size=11
 xterm*saveLines: 2000
 ! Base16 Default Dark

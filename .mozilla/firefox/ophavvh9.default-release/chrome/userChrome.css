@@ -1,0 +1,4 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+/* CSS code goes here */
+    --newtab-background-color: #F9F9FA;
+}

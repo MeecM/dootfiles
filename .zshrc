@@ -102,6 +102,11 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-alias slep="systemctl suspend"
+alias pacup="sudo pacman -Syu"
+alias i3conf="vim ~/.i3/config"
+alias frconf="cd ~/.mozilla/firefox/ophavvh9.default-release/chrome"
+alias rxrdb="xrdb ~/.Xresources"
+alias vimconf="vim ~/.vimrc"
+alias learnc="cd ~/projects/learningC"
+alias lock="i3lock"
+alias sslep="systemctl suspend" 

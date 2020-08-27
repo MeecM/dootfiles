@@ -1,5 +1,5 @@
 syntax on
-
+"test
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -28,12 +28,16 @@ Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
 Plug 'kien/ctrlp.vim'
+Plug 'lervag/vimtex'
+Plug 'arcticicestudio/nord-vim'
 
 " Initialize plugin system
 call plug#end()
-
-set background=dark
-
+" colors
+colorscheme nord
+"Vimtex stuff
+let g:tex_flavor = "latex"
+" Binding
 if executable('rg')
     let g:rg_derive_root='true'
 endif

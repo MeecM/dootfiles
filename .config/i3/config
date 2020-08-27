@@ -3,10 +3,11 @@
 #
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
-#
-
+# set desktop background with custom effect
+exec --no-startup-id betterlockscreen -w dim
+bindsym $mod+shift+x exec betterlockscreen -l dim
 # i3 config file (v4)
-#
+#testesttest
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod1
@@ -182,10 +183,7 @@ bindsym $mod+r mode "resize"
 #gaps inner 7
 #gaps outer 10
 
-exec --no-startup-id picom
-
-#nitrogen --restore
-exec --no-startup-id wal -R
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

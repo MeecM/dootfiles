@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH="${PATH}:${HOME}/.local/bin/"
 # Path to your oh-my-zsh installation.
 export ZSH="/home/rileym/.oh-my-zsh"
 
@@ -110,3 +110,4 @@ alias vimconf="vim ~/.vimrc"
 alias learnc="cd ~/projects/learningC"
 alias lock="i3lock"
 alias sslep="systemctl suspend" 
+alias school="su -l school"
